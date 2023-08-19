@@ -1,0 +1,77 @@
+// Algoritmo Dividir para conquistar (Exemplo Ilustrado: Pág 83 do livro)
+// (Ex passo 1: Duas porções de terra com lados múltiplos um do outro)
+// (Ex passo 2:
+// 1680 x 640 -> 400 x 640 - > 400 x 240 - > 160 x 240 - > 160 x 80 (Caso base!) Resposta -> 80 x 80 )
+
+// Dois passos:
+// 1 - Descobrir o caso base, que deve ser o mais simples possível
+// 2 - Dividir ou diminuir o problema até que ele se torne o caso base.
+
+// Algoritmo de Euclides
+// https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm
+
+// Exercícios:
+// 4.1 -> Classe RecursiveSum (part02)
+// 4.2 -> Classe RecursiveCount (part03)
+// 4.3 -> Classe RecursiveMax (part04)
+// 4.4 -> Classe RecursiveMax (part04)
+// 4.4 -> O caso base é um array com um item, caso este seja o mesmo a ser procurado,
+//foi encontrado, caso não seja, o item não está no array. O caso recursivo é dividir
+//o array pela metade comparando o item encontrado e o procurado, realizando a busca
+//novamente na metade restante
+
+// Quicksort
+// - Algoritmo de ordenação mais rápido que a ordenação por seleção
+// - Caso base: Arrays Vazios ou Arrays com apenas um elemento.
+// - Caso funcione no caso médio, possui tempo de execução O(n log n)
+// - Caso funcione no pior caso, possui tempo de execução O(n²)
+// Passo 1 -> Escolher um elemento do array, que será chamado de pivô.
+// Passo 2 -> Particione o array em dois: elementos maiores e elementos menores que o pivô.
+// Passo 3 -> Caso o array particionado possuir 2 ou mais elementos, voltar ao passo 1
+// Passo 4 -> Juntar os resultados com o pivô.
+
+
+// - Revisando a notação Big O -
+// No caso de tempos de execução Big O diferentes, a constante c
+// (tempo de execução do algoritmo) pode ser ignorada, pois não fará
+// diferença no resultado final. Ao comparar O(c * n) e O(c * log n),
+// sabe-se que a segunda opção é mais rápida.
+
+// - Merge sort X quicksort -
+// Para tempos de execução Big O iguais, a constante pode sim fazer
+// diferença, e esse é o caso da comparação entre o merge sort e o quicksort.
+// Apesar de terem o mesmo tempo de execução O(n log n), o quicksort possui
+// uma constante menor que o merge sort e por isso acaba sendo mais rápido,
+// além de funcionar mais vezes no caso médio do que no pior caso.
+
+// - Caso Médio X Pior Caso -
+// - Pior Caso
+// A escolha do pivô influencia diretamente no tempo de execução.
+// No pior caso, escolhe-se um item do array que está em uma de
+// suas pontas (índice 0, por exemplo), sendo assim o array sempre
+// será particionado em uma parte vazia a outra parte com o restante.
+// Isso cria uma pilha de chamada de tamanho O(n), e como cada nível
+// da pilha tem tempo de execução O(n), o tempo total de execução do
+// algoritmo será O(n) x O(n) = O(n²)
+// - Caso médio:
+// No caso médio, escolhe-se o item central do array como pivô, sendo
+// assim o array sempre será particionado em duas partes, fazendo com
+// que não sejam necessárias tantas execuções recursivas. Isso cria uma
+// pilha de chamada menor, de tamanho O(log n), e como cada nível da pilha
+// tem tempo de execução O(n), o tempo total de execução do algoritmo será
+// O(n) x O(log n) = O(n log n)
+
+// Exercícios
+// 4.5 - O(n)
+// 4.6 - O(n)
+// 4.7 - O(1)
+// 4.8 - O(n²)
+
+// Resumo
+// - Dividir para conquistar funciona dividindo o problema em problemas menores.
+// - Se o DC estiver sendo utilizado em uma lista, o caso base provavelmente
+// será um array vazio ou um array de apenas um elemento
+// - Se estiver implementando o quicksort, escolha um elemento aleatório como pivô.
+// assim o tempo de execução médio será de O(n log n)
+// - A constante, na notação Big O, pode ser relevante em alguns casos, como em
+// merge sort x quicksort

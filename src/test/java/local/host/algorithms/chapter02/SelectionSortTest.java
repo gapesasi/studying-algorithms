@@ -1,5 +1,6 @@
 package local.host.algorithms.chapter02;
 
+import local.host.algorithms.chapter02.part01.SelectionSort;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

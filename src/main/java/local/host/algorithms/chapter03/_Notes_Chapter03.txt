@@ -1,0 +1,19 @@
+// Pilha de chamada (Call Stack)
+// - A estrutura de dados "pilha" é uma estrutura de dados simples em que quando um
+//item é adicionado, é colocado no topo dela (push), e quando é removido, é removido
+//do topo da lista e lido (pop).
+
+// Exercício:
+// 3.1 - A função "sauda" chama a função "sauda2", que será executada para que a
+//primeira função possa continuar.
+// 3.2 - Ela não para de crescer.
+
+---
+
+// Recursão
+// - Quando uma função chama a si mesma.
+// - A recursão é usada para tornar a resposta mais clara
+// - A recursão não melhora o desempenho do programa (podendo talvez piorar)
+// - A recursão melhora a clareza do código e o "desempenho" do programador.
+// Caso base -> Quando a função não chama a si mesma novamente (Evita o loop infinito)
+// Caso recursivo -> Quando a função chama  si mesma novamente.

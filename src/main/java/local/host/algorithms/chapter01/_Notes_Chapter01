@@ -1,0 +1,18 @@
+// Exercício 1.1
+// 128 -> 64 - 32 - 16 - 8 - 4 - 2 - 1
+// Resposta: Um máximo de 7 etapas.
+
+// Exercício 1.2
+// 256 - 128 - 64 - 32 - 16 - 8 - 4 - 2 - 1
+// Resposta: Um máximo de 8 etapas, aumentando apenas uma.
+
+// Notação Big O
+// Busca simples -> Tempo de execução é O(n)
+// Busca binária -> Tempo de execução é O(log n)
+
+//Exercícios
+
+//1.3 - O(log n)
+//1.4 - O(n)
+//1.5 - O(n)
+//1.6 - O(n)

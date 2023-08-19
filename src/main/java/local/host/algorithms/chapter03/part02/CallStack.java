@@ -1,4 +1,4 @@
-package local.host.algorithms.chapter03;
+package local.host.algorithms.chapter03.part02;
 
 public class CallStack {
     public static void main(String[] args) {
@@ -18,13 +18,3 @@ public class CallStack {
         System.out.println("Ok, bye!");
     }
 }
-
-// Pilha de chamada (Call Stack)
-// - A estrutura de dados "pilha" é uma estrutura de dados simples em que quando um
-//item é adicionado, é colocado no topo dela (push), e quando é removido, é removido
-//do topo da lista e lido (pop).
-
-// Exercício:
-// 3.1 - A função "sauda" chama a função "sauda2", que será executada para que a
-//primeira função possa continuar.
-// 3.2 - Ela não para de crescer.

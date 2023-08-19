@@ -1,0 +1,9 @@
+//Exercícios
+//2.1 - Uma lista encadeada.
+//2.2 - Lista encadeada, o trabalho exige muitas inserções e nenhuma requisição aleatória.
+//2.3 - Como um array (E ele necessita ser ordenado)
+//2.4 - A desvantagem do Array é que ele necessita mudar todos os itens na memória para
+//inserir um novo, além de que após a inserção do usuário o array terá de ser reordenado
+//para satisfazer a busca binária, tornando o processo ainda mais lento.
+//2.5 - É mais rápida que os arrayse de mesmo tempo que listas encadeadas para inserções
+// e remoções.

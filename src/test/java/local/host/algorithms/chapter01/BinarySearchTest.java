@@ -1,5 +1,6 @@
 package local.host.algorithms.chapter01;
 
+import local.host.algorithms.chapter01.part01.BinarySearch;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

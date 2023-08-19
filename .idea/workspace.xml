@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1078a615-509a-457a-b2ee-82b0f0430024" name="Changes" comment="Capítulo 03 do livro Entendendo Algoritmos finalizado. Página Atual: 80">
-      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter03/CallStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter03/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter01/_Notes_Chapter01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter02/_Notes_Chapter02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter03/_Notes_Chapter03.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter03/part01/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter03/part03/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter04/_Notes_Chapter04.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter04/part01/LoopSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter04/part02/RecursiveSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter04/part03/RecursiveCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter04/part04/RecursiveMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter04/part05/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter01/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter02/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter01/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter01/part01/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter02/Recursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/local/host/algorithms/chapter01/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/host/algorithms/chapter02/SelectionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter02/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter02/part01/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter03/CallStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter03/part02/CallStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/local/host/algorithms/chapter03/Recursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/local/host/algorithms/chapter01/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/host/algorithms/chapter01/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/local/host/algorithms/chapter02/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/host/algorithms/chapter02/SelectionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +68,7 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="local.host.algorithms.chapter02" />
       <recent name="local.host.algorithms.Chapter01" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -67,13 +81,13 @@
       <command value="b" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
-    <configuration name="CallStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.chapter03.CallStack" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.chapter03.part03.Factorial" />
       <module name="Algoritmos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="local.host.algorithms.chapter03.*" />
+          <option name="PATTERN" value="local.host.algorithms.chapter03.part03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.hackerrank.day04.GridChallenge" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.chapter04.part05.QuickSort" />
       <module name="Algoritmos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="local.host.algorithms.hackerrank.day04.*" />
+          <option name="PATTERN" value="local.host.algorithms.chapter04.part05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.chapter03.Recursion" />
+    <configuration name="RecursiveCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.chapter04.part03.RecursiveCount" />
       <module name="Algoritmos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="local.host.algorithms.chapter03.*" />
+          <option name="PATTERN" value="local.host.algorithms.chapter04.part03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.hackerrank.day04.RecursiveDigitSum" />
+    <configuration name="RecursiveMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.chapter04.part04.RecursiveMax" />
       <module name="Algoritmos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="local.host.algorithms.hackerrank.day04.*" />
+          <option name="PATTERN" value="local.host.algorithms.chapter04.part04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,28 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursiveSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.chapter04.part02.RecursiveSum" />
       <module name="Algoritmos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="local.host.algorithms.chapter02.*" />
+          <option name="PATTERN" value="local.host.algorithms.chapter04.part02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="local.host.algorithms.chapter02" />
-      <option name="MAIN_CLASS_NAME" value="local.host.algorithms.chapter02.SelectionSortTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.CallStack" />
-        <item itemvalue="JUnit.SelectionSortTest" />
-        <item itemvalue="Application.RecursiveDigitSum" />
-        <item itemvalue="Application.GridChallenge" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.RecursiveMax" />
+        <item itemvalue="Application.RecursiveSum" />
+        <item itemvalue="Application.RecursiveCount" />
+        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -161,8 +173,26 @@
       <option name="project" value="LOCAL" />
       <updated>1692399883526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Capítulo 03 do livro Entendendo Algoritmos finalizado. Página Atual: 80">
+      <created>1692453359234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692453359234</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do Repositório já com testes realizados na plataforma HackerRank e registro da leitura do livro Entendendo Algoritmos. Página Atual: 63" />
