@@ -1,4 +1,4 @@
-package local.host.algorithms.chapter01;
+package local.host.algorithms.chapter02;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

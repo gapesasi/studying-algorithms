@@ -1,4 +1,4 @@
-package local.host.algorithms.chapter01;
+package local.host.algorithms.chapter02;
 
 import java.util.ArrayList;
 import java.util.List;
