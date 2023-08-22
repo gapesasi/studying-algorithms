@@ -1,0 +1,50 @@
+// Funções Hash
+// - A função Hash mapeia consistentemente um nome (uma key) para o mesmo índice.
+//Ou seja, sempre retornará a mesma entrada para cada key.
+// - A função Hash Mapeia diferentes Strings para diferentes índices.
+// - A funcão Hash tem conhecimento sobre o tamanho do array e retornará apenas
+//índices válidos.
+// - A função Hash tem tempo de execução O(1) para leituras!
+
+//Tabelas Hash
+// - É uma estrutura de dados que combina uma função hash e um array
+// (HashMap, Map, Dictionary...).
+// - São ótimas para mapear um item x com relação a um item y.
+// - São ótimas para pesquisas.
+// - São amplamente utilizadas. Ex: Resolução DNS - Associação [Website -> Endereço IP]
+// - São ótimas para localizar duplicatas
+
+// Exercícios
+// 5.1 - Consistente
+// 5.2 - Inconsistente
+// 5.3 - Inconsistente
+// 5.4 - Consistente
+
+// Tabelas Hash como cache
+// - Cache: Armanezamento de dados feito pelos websites para que não sejam recalculá-dos
+//a cada solicitação.
+// - Mapeamento de página estática de website (Ex: login) e dados.
+//[.../login -> dados da página de login]
+
+// Colisões
+// - Se você possui, por exemplo, um Hash de 26 espaços em que cada palavra iniciada
+//com uma letra será armazenada em seu espaço, há um problema: E se for necessário
+//armazenar dois itens que iniciam com a mesma letra? Isso é a *colisão*.
+// - A mais simples alternativa é iniciar uma lista encadeada no espaço que está sendo
+//mapeado por diversar chaves.
+// - Uma boa função hash mapeia todas as chaves para um único espaço, idealmente de maneira
+//simétrica por toda a hash, criando poucas colisões.
+// - Caso as listas encadeadas se tornem muito longas, elas diminem demais o tempo de
+//execução da tabela hash. Uma boa função hash não deixa isso acontecer.
+// - Para evitar colisões são necessários:
+//  - Um baixo fator de carga
+//  - Uma boa função hash
+
+// Desempenho
+// - Tempo de execução do caso médio para inserção, remoção e busca: O(1)
+// - Tempo de execução do pior caso para inserção, remoção e busca: O(n)
+
+// Exercícios
+// 5.5 - As funções hash c e d
+// 5.6 - As funções hash b e d
+// 5.7 - As funções hash b, c e d
