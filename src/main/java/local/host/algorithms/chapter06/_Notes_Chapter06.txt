@@ -1,0 +1,58 @@
+// Pesquisa em Largura
+// - Algoritmo que pode ser executado utilizando grafos
+// - A pesquisa em largura permite encontrar o menor caminho entre dois objetos
+//Por exemplo:
+// - Escrever um algoritom de IA que calcula o menor número de movimentos necessários
+//para a vitória em uma partida de damas
+// - Criar um corretor ortográfico (que calcula o menor número de edições para transformar
+//uma palavara incorreta em uma palavra real LEITOT -> LEITOR)
+// - Encontrar o médico conveniado ao seu plano de saúde que está mais próximo
+//de você.
+
+//Problema do caminho mínimo
+// - Neste problema, você sempre tentará achar o caminho mínimo para algo, como por exemplo
+//a rota mais curta até algum lugar. O algoritmo que resolve esse problema é a pesquisa em largura.
+// - Pra rescolver o problema, existem duas etapas:
+// 1. Modele o problema utilizando grafos
+// 2. Resolva o problema utilizando a pesquisa em largura
+
+//O que é um grafo?
+// - Um modelo de grafo é um conjunto de conexões. Por exemplo, se estamos em um jogo de poker:
+//  1. Alex deve dinheiro à Rama.
+//  2. Tom deve dinheiro à Rama.
+//  3. Tom deve dinheiro à Adit.
+//  4. Rama deve dinheiro à Adit.
+// - Cada grafo é constiruído de vértices e arestas. Nesses casos, as pessoas são os vértices
+//e dever dinheiro à outra é a aresta, a conexão.
+// - Um vizinho acontece quando um vértice é diretamente conectado à muitos outros vértices.
+// - Utilizando nosso exenplo do poker para explicar vizinhos:
+//  - Rama é vizinha de Alex e Tom.
+//  - Adit é vizinho de Rama e Tom.
+//  - Alex não é vizinho.
+//  - Tom não é vizinho.
+
+//Voltando à pesquisa em largura
+// - Este algortimo ajuda a responder duas perguntas:
+// 1. Existe algum caminho do vértice A até o vértice B?
+// 2. Qual o caminho mínimo entre o vértice A até o vértice B?
+// - Por exemplo, caso exista um indíviduo com uma produção de mangas que deseja encontrar um
+//vendedor de mangas em sua rede. Nesse caso, ele pesquisaria entre seus amigos; caso um deles
+//não venda mangas, ele adiciona os amigos desse amigo na lista.
+// - Para que o algoritmo sempre encontre o menor caminho, é necessário que a pesquisa siga a
+//ordem de inserção na lista, ou seja, não busque um amigo de 2º grau antes de buscar todos os
+//de 1º grau.
+// - Para garantir que a ordem de inserção seja seguida, existe uma estrutura de dados específica:
+//A fila.
+
+//Filas
+// - Funciona exatamente como filas na vida real
+// - Estrutura de dados FIFO (First In, First Out)
+// - Não é possível acessar itens aleatórios em uma fila.
+// - Apenas duas operações são possíveis:
+//  - Enqueue (Enfileirar ou adicionar na lista)
+//  - Dequeue (Desenfileirar ou remover da lista)
+
+//Exercícios
+// 6.1 - O menor caminho do ínício ao fim é o caminho com apenas dois movimentos, que parte do início
+//vai para um ponto acima e depois vai reto até o ponto final.
+// 6.2 - O menor caminho de jato até gato tem apenas um movimento, já que jato e gato são conectados.

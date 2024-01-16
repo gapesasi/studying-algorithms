@@ -1,0 +1,58 @@
+//Implementando o grafo
+// - O grafo possui relações do tipo "vértice a -> vértice b". A estrutura de dados que nos
+// permitirá expressar relações é a tabela Hash.
+// - É necessário mapear um vértice a todos os seus vizinhos
+// - Quando um vértice possui setas apontadas para eles, mas nenhuma seta partindo dele para outros
+//significa que ele não tem vizinhos. Isso se chama dígrafo, onde a relação acontece em apenas um
+//sentido
+
+//Implementando o algoritmo
+// - A implementação do algortimo funcionará da seguinte forma:
+// 1. Crie uma fila que irá contem todas as pessoas a serem verificadas. Inicia-se a fila com os vizinhos
+//de primeiro grau.
+// 2. Retire uma pessoa da fila
+// 3. Confira se essa pessoa é um vendedor de mangas
+// - Se sim:
+// 4. Pronto, o vendedor de mangas foi encontrado.
+// - Se não:
+// 4. Adicione todos os vizinhos dessa pessoa na fila.
+// 5. Repita
+// 6. Caso a fila se esvazie, não existem vendedores de manga na rede.
+
+//Importante
+// - Caso uma pessoa tenha o mesmo vizinho em comum, essa pessoa será adicionada na lista duas vezes.
+// - Para evitar que isso aconteça e não verificar a mesma pessoa duas vezes, iremos criar uma lista
+//de pessoas que já foram verificas, assim só iremos verificar pessoas que não estejam nessa lista.
+// - Caso não façamos isso, podemos entrar em um grande problema, um loop infinito.
+// - O loop infinito aconteceria caso uma pessoa y tivesse um vizinho x, mas a pessoa x também tivesse um viznho y.
+//Como não haveria um controle de pessoas verificadas, quando verificasse o y o x seria adicionado na lista
+//e vice-versa, criando assim um loop infinito.
+
+//Tempo de execução
+// - Por ter de procurar um vendedor de mangas em toda a rede, cada aresta será analisada. Como
+//também se mantem uma lista com as pessoas já verificadas, esse tempo também tem que ser considerado.
+//Sendo assim , o tempo de execução será de O(número de pessoas + número de arestas) ou O(V + A)
+
+//Exercícios
+6.3
+Lista A - Inválida
+Lista B - Válida
+Lista C - Inválida
+
+6.4
+1. Acordar
+2. Praticar exercício
+3. Tomar banho
+4. Trocar de roupa
+5. Escovar os dentes
+6. Tomar café da manhã
+7. Embrulhar o lanche
+
+//Árvore
+// - Podemos dizer que uma árvore genealógica é um grafo, já que existem vértices (as pessoas) e arestas,
+//as arestas apontam para os pais dos vertices. As arestas sempre apontam pra baixo, pois não é possível
+//que você seja pai do seu pai, por exemplo.
+// - Esse tipo especial de grafo é chamado de árvore!
+
+//Exercício
+6.5 - Os grafos A e C também são árvores

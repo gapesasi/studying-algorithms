@@ -34,7 +34,7 @@
 //mapeado por diversar chaves.
 // - Uma boa função hash mapeia todas as chaves para um único espaço, idealmente de maneira
 //simétrica por toda a hash, criando poucas colisões.
-// - Caso as listas encadeadas se tornem muito longas, elas diminem demais o tempo de
+// - Caso as listas encadeadas se tornem muito longas, elas diminuem demais o tempo de
 //execução da tabela hash. Uma boa função hash não deixa isso acontecer.
 // - Para evitar colisões são necessários:
 //  - Um baixo fator de carga
